@@ -61,7 +61,7 @@ int main ( void )
     {
 
         int choice = 0 ;
-        printf ( "%s" , "Choice" ) ;
+        printf ( "%s" , "Choice :- " ) ;
         scanf ( "%d" , &choice ) ;
         printf ( "\n" ) ;
 
@@ -131,7 +131,7 @@ int main ( void )
             if ( choice != 0 )
             {
 
-                printf ( "\n%s" , "Choice" ) ;
+                printf ( "\n%s" , "Choice :- " ) ;
                 scanf ( "%d" , &choice ) ;
 
             }
@@ -176,7 +176,7 @@ int searchContact ( FILE *fPtr )
                 person.countryCode ,
                 person.contactNumber ,
                 person.email ) ;
-                
+
             found = 1 ;
 
         }
