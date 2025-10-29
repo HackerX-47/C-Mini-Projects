@@ -176,6 +176,7 @@ int searchContact ( FILE *fPtr )
                 person.countryCode ,
                 person.contactNumber ,
                 person.email ) ;
+                
             found = 1 ;
 
         }
