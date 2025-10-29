@@ -101,6 +101,6 @@ Omkar<br>
 **📸 Instagram:** [okms.ra](https://www.instagram.com/okms.ra/)  
 **🔗 LinkedIn:** [Omkar Singh](https://www.linkedin.com/in/omkar-singh-ba2653381/)  
 **💻 LeetCode:** [HackerX_47](https://leetcode.com/u/HackerX_47/)
-* **Repository Location:** `C-Mini-Projects/Matrix_Calculator`
+* **Repository Location:** `C-Mini-Projects/Contact_Book`
 
 ---
