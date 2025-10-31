@@ -73,7 +73,7 @@ Enter one of the following choices:
 
 ## 🧑‍💻 Author
 
-This project was created by **Omkar**.
+This project was created by **Omkar**.<br>
 **📧 Email:** [omkar121207@gmail.com](mailto:omkar121207@gmail.com)  
 **🐙 GitHub:** [HackerX-47](https://github.com/HackerX-47) 
 **🔗 LinkedIn:** [Omkar Singh](https://www.linkedin.com/in/omkar-singh-ba2653381/)  
