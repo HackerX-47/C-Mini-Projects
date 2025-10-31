@@ -146,8 +146,8 @@ Guess-The-Number-Game/
 
 ### 👨‍💻 Author Info
 
-This project was created by  **Omkar**
+This project was created by  **Omkar**<br>
 **📧 Email:** [omkar121207@gmail.com](mailto:omkar121207@gmail.com)  
-**🐙 GitHub:** [HackerX-47](https://github.com/HackerX-47)  
+**🐙 GitHub:** [HackerX-47](https://github.com/HackerX-47) <br> 
 **🔗 LinkedIn:** [Omkar Singh](https://www.linkedin.com/in/omkar-singh-ba2653381/)  
 **💻 LeetCode:** [HackerX_47](https://leetcode.com/u/HackerX_47/)
