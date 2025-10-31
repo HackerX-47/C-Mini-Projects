@@ -77,8 +77,7 @@ This project was created by **Omkar**.
 
 Omkar<br>
 **📧 Email:** [omkar121207@gmail.com](mailto:omkar121207@gmail.com)  
-**🐙 GitHub:** [HackerX-47](https://github.com/HackerX-47)  
-**📸 Instagram:** [okms.ra](https://www.instagram.com/okms.ra/)  
+**🐙 GitHub:** [HackerX-47](https://github.com/HackerX-47) 
 **🔗 LinkedIn:** [Omkar Singh](https://www.linkedin.com/in/omkar-singh-ba2653381/)  
 **💻 LeetCode:** [HackerX_47](https://leetcode.com/u/HackerX_47/)
 * **Repository Location:** `C-Mini-Projects/Dynamic_Quiz_Game`
