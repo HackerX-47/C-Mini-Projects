@@ -76,7 +76,7 @@ The program is organized using function prototypes for clarity and modularity. K
 ## 👤 Author
 
 This project was created by **Omkar**<br>
-**📧 Email:** [omkar121207@gmail.com](mailto:omkar121207@gmail.com)  
+**📧 Email:** [omkar121207@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=omkar121207@gmail.com)<br>
 **🐙 GitHub:** [HackerX-47](https://github.com/HackerX-47)<br>
 **🔗 LinkedIn:** [Omkar Singh](https://www.linkedin.com/in/omkar-singh-ba2653381/)  
 **💻 LeetCode:** [HackerX_47](https://leetcode.com/u/HackerX_47/)
