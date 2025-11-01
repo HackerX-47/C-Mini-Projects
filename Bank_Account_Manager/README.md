@@ -85,14 +85,14 @@ MAIN FUNCTION
 ---
 
 ## 📂 File Structure
-
+```bash
 Bank-Account-Manager
 │
 ├── vintage_bank_manager.c # Main source code file
 ├── accounts.txt # Stores all bank account data
 ├── temp.txt # Temporary file for updates/deletions
 └── README.md # Project documentation (this file)
-
+```
 
 ---
 
@@ -196,5 +196,5 @@ This project was created by **Omkar**.<br>
 **🐙 GitHub:** [HackerX-47](https://github.com/HackerX-47) <br>
 **🔗 LinkedIn:** [Omkar Singh](https://www.linkedin.com/in/omkar-singh-ba2653381/)  
 **💻 LeetCode:** [HackerX_47](https://leetcode.com/u/HackerX_47/)
-* **Repository Location:** `C-Mini-Projects/Dynamic_Quiz_Game`
+* **Repository Location:** `C-Mini-Projects/Bank_Account_Manager`
 ---
