@@ -129,9 +129,9 @@ int main ( void )
     
     {
 
-        printf ( "+------------------------------------+\n" ) ;
-        printf ( "|       Bank Account Manager         |\n" ) ;
-        printf ( "+------------------------------------+\n\n" ) ;
+        printf ( "\n+----------------------------------------+\n" ) ;
+        printf ( "|         Bank Account Manager           |\n" ) ;
+        printf ( "+----------------------------------------+\n\n" ) ;
 
         instructions ( ) ;
 
@@ -179,7 +179,7 @@ int main ( void )
 
                     printf ( "--------------------------------\n" ) ;
                     printf ( "        Delete Account          \n" ) ;
-                    printf ( "--------------------------------\n" ) ;
+                    printf ( "--------------------------------\n\n" ) ;
 
                     deleteAccount ( fPtr ) ;
                     fPtr = fopen ( "accounts.txt" , "a+" ) ;
@@ -260,7 +260,7 @@ int main ( void )
 
                 {
 
-                    printf ( "Invalid Option Input \nTry Again \n" ) ;
+                    printf ( "Invalid Option Input \nTry Again \n\n" ) ;
                     instructions ( ) ;
 
                 }
@@ -282,7 +282,7 @@ int main ( void )
 
     }
 
-    printf ( "Program Terminating ...\n" ) ;
+    printf ( "Program Terminating ...\n\n" ) ;
 
 }
 
@@ -290,6 +290,7 @@ void createAccount ( FILE * fPtr , int createdAccountCounter )
 
 {
 
+    printf("\n");
     Account person ;
 
     sprintf ( person . accountNumber , "%010d" , createdAccountCounter ) ; 
@@ -327,8 +328,8 @@ void createAccount ( FILE * fPtr , int createdAccountCounter )
     
     {
 
-        printf ( "\nAccount successfully created\n" ) ;
-        printf ( "Account Details :- \n" ) ;
+        printf ( "\nAccount successfully created\n\n" ) ;
+        printf ( "Account Details :- \n\n" ) ;
         printf ( "Account Number :- %s\n" , person . accountNumber ) ;
         printf ( "First Name :- %s\n" , person . firstName ) ;
         printf ( "Last Name :- %s\n" , person . lastName ) ;
@@ -337,6 +338,7 @@ void createAccount ( FILE * fPtr , int createdAccountCounter )
     }
 
     fflush ( fPtr ) ;
+    printf("\n");
 
 }
 
@@ -419,7 +421,7 @@ void deleteAccount ( FILE * fPtr )
         
         {
 
-            printf ( "Deletion successfull\n" ) ;
+            printf ( "Deletion successfull\n\n" ) ;
 
         }
 
@@ -427,7 +429,7 @@ void deleteAccount ( FILE * fPtr )
         
         {
 
-            printf ( "Account deletion cannot processed\nNo such account present\n" ) ;  
+            printf ( "Account deletion cannot processed\nNo such account present\n\n" ) ;  
         
         }
 
@@ -454,6 +456,7 @@ void deposit_OR_withdraw ( FILE * fPtr , int option )
     
     {
 
+        printf("\n");
         Account person ;   
         char targetStr [ 11 ] ;
         printf ( "Tell me the account number :- " ) ;
@@ -572,7 +575,7 @@ void deposit_OR_withdraw ( FILE * fPtr , int option )
         
         {
 
-            printf("Process Sucessfull!\n");
+            printf ( "\nProcess Sucessfull!\n\n" ) ;
 
         }
 
@@ -580,7 +583,7 @@ void deposit_OR_withdraw ( FILE * fPtr , int option )
         
         {
 
-            printf("Process Failed!\nNo such account found\n");
+            printf ( "\nProcess Failed!\nNo such account found\n\n" ) ;
 
         }
 
@@ -592,11 +595,12 @@ void balanceInquiry ( FILE * fPtr )
 
 {
 
+    printf ( "\n" ) ;
     Account person ;
     char targetStr [ 11 ] ;
     printf ( "Tell me the account number :- " ) ;
     scanf ( "%10s" , targetStr ) ;
-    printf ( "\n\n" ) ;
+    printf ( "\n" ) ;
     int success = 0 ;
     rewind ( fPtr ) ;
 
@@ -628,7 +632,7 @@ void balanceInquiry ( FILE * fPtr )
             printf ( "Account Number :- %s\n" , person . accountNumber ) ;
             printf ( "First Name :- %s\n" , person . firstName ) ;
             printf ( "Last Name :- %s\n" , person . lastName ) ;
-            printf ( "Balance :- %d\n" , person . balance ) ;
+            printf ( "Balance :- %d\n\n" , person . balance ) ;
             success = 1 ;
 
         }
@@ -639,7 +643,7 @@ void balanceInquiry ( FILE * fPtr )
     
     {
 
-        printf ( "No such account exist\n" ) ;
+        printf ( "No such account exist\n\n" ) ;
 
     }
 
