@@ -1,18 +1,50 @@
+/*
+===============================================================================
+                             FUNCTION DEFINITIONS
+===============================================================================
+File Name     : function_definitions.c
+Purpose       : Contains the full implementation of all declared functions
+                from sudoku.h, providing the logic behind each module.
+
+Description   :
+    This file defines all helper functions used in the Sudoku game including:
+    - Game initialization and instruction display.
+    - Random Sudoku grid generation.
+    - Row, column, and subgrid validation logic.
+    - Dynamic Sudoku board display for user interaction.
+
+Highlights:
+    - Demonstrates modular and reusable function-based design.
+    - Reinforces core C programming concepts like arrays, loops, and pointers.
+    - Provides clean and well-commented implementation for readability.
+
+===============================================================================
+*/
+
 #include "sudoku.h"
 
-void starting(){
+void starting()
+
+{
+
     printf("\n========================================\n");
     printf("         WELCOME TO SUDOKU GAME         \n");
     printf("========================================\n\n");
+
 }
 
-void instructions(){
+
+void instructions()
+
+{
+
     printf("Rules:\n");
     printf("1. You'll see a partially filled Sudoku grid.\n");
     printf("2. Enter row (1-9), column (1-9), and a value (1-9).\n");
     printf("3. A move is valid only if it doesn't repeat\n");
     printf("   in the same row, column, or 3x3 subgrid.\n");
     printf("4. 0 means an empty cell.\n\n");
+
 }
 
 
