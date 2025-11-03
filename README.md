@@ -85,5 +85,3 @@ This project was created by **Omkar**<br>
 **🔗 LinkedIn:** [Omkar Singh](https://www.linkedin.com/in/omkar-singh-ba2653381/)  
 **💻 LeetCode:** [HackerX_47](https://leetcode.com/u/HackerX_47/)<br>
 **Repository Location:** `C-Mini-Projects/Tic-Tac-Toe_Game`
-
----
