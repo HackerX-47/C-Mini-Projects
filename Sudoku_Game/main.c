@@ -1,30 +1,4 @@
-/*
 
-🧩 Project Overview
-
-The goal is to check if a given Sudoku grid (9×9) is valid according to Sudoku rules:
-
-- Each row must contain digits 1–9 exactly once.
-- Each column must contain digits 1–9 exactly once.
-- Each 3×3 subgrid must contain digits 1–9 exactly once.
-
-*/
-
-/*
-
-void instructions();
-int fillSudoku(int sudoku[9][9],int n);
-int input(int sudoku[9][9],int row,int column);
-int isRowValid(int sudoku[9][9],int row);
-int isColumn(int sudoku[9][9],int column);
-void gridChecker(int row,int column, int gridRow, int gridColumn);
-int isSubgridValid(int sudoku[9][9],int startRow,int startColumn);
-void displaySudoku(int sudoku[9][9]);
-
-*/
-
-// i will take in 35-40 filled cells
-// fillSudoku place the value of filled cells in the second argument variable
 #include "sudoku.h"
 
 int main(void){
@@ -39,26 +13,49 @@ int main(void){
     int gridRow=0;
     int gridColumn=0;
 
+    starting();
     instructions();
+
     initialFilledCells=fillSudoku(sudokuBoard);
     totalFilledCells=initialFilledCells+userFilledCells;
     
-    for(userFilledCells=1;totalFilledCells<=81;++userFilledCells){
+    for(userFilledCells=1;totalFilledCells<=81;++userFilledCells)
+    
+    {
+
         gridRow=0;
         gridColumn=0;
+
+        printf("Sudoku Board :-\n\n");
         displaySudoku(sudokuBoard);
         input(sudokuBoard,row,column,0);
-        gridChecker(row,column,gridRow,gridColumn);
-        while(
+        gridChecker(row,column,&gridRow,&gridColumn);
+        
+        while
+        
+        (
+
             !isRowValid(sudokuBoard,row)||
             !isColumnValid(sudokuBoard,column)||
             !isSubgridValid(sudokuBoard,gridRow,gridColumn)
+        
         )
+
         {
+
+            printf("Invalid Number\n");
+            printf("Row Valid: %d\n",isRowValid(sudokuBoard,row));
+            printf("Column Valid: %d\n",isColumnValid(sudokuBoard,column));
+            printf("Sub Grid Valid: %d\n\n",isSubgridValid(sudokuBoard,gridRow,gridColumn));
+            instructions();
             input(sudokuBoard,row,column,1);
+        
         }
-        // valid now onwards
+        printf("Row Valid: %d\n",isRowValid(sudokuBoard,row));
+        printf("Column Valid: %d\n",isColumnValid(sudokuBoard,column));
+        printf("Sub Grid Valid: %d\n\n",isSubgridValid(sudokuBoard,gridRow,gridColumn));
+        printf("Input is correct\n\n");
     }
-    // player won, program terminating
+    printf("\nYou won the sudoku game!\n");
 }
 
