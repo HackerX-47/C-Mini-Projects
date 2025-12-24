@@ -1,5 +1,10 @@
 # 🧠 C Mini Projects
 
+A collection of **C programming mini projects** created while exploring and mastering core C concepts — from loops and conditionals to file handling and data structures.  
+Each project focuses on improving logical thinking, algorithmic design, and modular programming skills.
+
+---
+
 ## 📁 Repository Overview
 
 This repository contains **10 standalone C projects**, each demonstrating key concepts of the C language.  
